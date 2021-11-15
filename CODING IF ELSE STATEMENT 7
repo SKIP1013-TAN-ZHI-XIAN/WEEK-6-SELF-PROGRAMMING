@@ -6,37 +6,37 @@ class IfElseStatement7 {
 		// TODO Auto-generated method stub
 		// Creating two variables for age and weight  
 		int age1 = 20;  
-	    int weight1 = 80;    
+	        int weight1 = 80;    
 	    
-	    // Applying condition on age and weight  
+	        // Applying condition on age and weight  
 	    
-	    if (age1 >= 18)
-	    {    
-	    if (weight1 > 50)
-	    {  
-	    	System.out.println("You are eligible to donate blood");  
-	    }    
+	        if (age1 >= 18)
+	        {    
+	        if (weight1 > 50)
+	        {  
+	    	    System.out.println("You are eligible to donate blood");  
+	        }    
 	  
-	    // Creating two variables for age and weight    
-	    int age2 = 25;    
-	    int weight2 = 48;      
+	        // Creating two variables for age and weight    
+	        int age2 = 25;    
+	        int weight2 = 48;      
 	    
-	    // Applying condition on age and weight    
-	    if (age2 >= 18)
-	    {      
-	    if (weight2 > 50)
-	    {    
-	    	System.out.println("You are eligible to donate blood");    
-	    } 
-	    else
-	    {  
-	    	System.out.println("You are not eligible to donate blood");    
-	    }  
-	    } 
-	    else
-	    {  
-	    	System.out.println("Age must be greater than 18");  
-	    }  
+	        // Applying condition on age and weight    
+	        if (age2 >= 18)
+	        {      
+	        if (weight2 > 50)
+	        {    
+	    	    System.out.println("You are eligible to donate blood");    
+	        } 
+	        else
+	        {  
+	    	    System.out.println("You are not eligible to donate blood");    
+	        }  
+	        } 
+	        else
+	        {  
+	    	    System.out.println("Age must be greater than 18");  
+	        }  
 	}
 
 }}
