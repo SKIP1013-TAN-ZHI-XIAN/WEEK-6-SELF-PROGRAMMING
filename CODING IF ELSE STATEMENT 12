@@ -1,0 +1,40 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class IfElseStatement12 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Create an object of Scanner class to take the input.
+		Scanner scanMe = new Scanner(System.in);
+		 
+		System.out.print("Enter your total marks of 5 subjects : ");
+		int totalMarks = scanMe.nextInt();
+		   	
+		float myPer = totalMarks / 5;
+		System.out.println("Percentage is: " + myPer);
+
+		if (myPer >= 90.0)
+		{
+			System.out.print("Grade A");
+		}
+		else if (myPer >= 80.0)
+		{
+			System.out.print("Grade B");
+		}
+		else if (myPer >= 70.0)
+		{
+			System.out.print("Grade C");
+		}
+		else if (myPer >= 60.0)
+		{
+			System.out.print("Grade D");
+		}
+		else
+		{
+			System.out.print("Grade F");
+		}
+	}
+
+}
