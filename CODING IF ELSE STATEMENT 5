@@ -23,8 +23,8 @@ class IfElseStatement5 {
 	        }
 	        else 
 	        {
-	    	  // If..else statement inside else block
-	    	  // Checks if n2 is greater than or equal to n3
+	    	   // If..else statement inside else block
+	    	   // Checks if n2 is greater than or equal to n3
 	        if (n2 >= n3) 
 	        {
 	    	   largest = n2;
