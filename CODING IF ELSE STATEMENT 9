@@ -14,7 +14,7 @@ class IfElseStatement9 {
 		System.out.println("Enter the divisor :");
 		int number2 = scanMe.nextInt();
 		 
-		if(number1 % number2 == 0)
+		if (number1 % number2 == 0)
 		{
 			System.out.println(number1 + " is divisible by " + number2);	
 		}
