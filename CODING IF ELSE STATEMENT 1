@@ -1,0 +1,23 @@
+package selfProgramming;
+
+class IfElseStatement1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int time = 22;
+		if (time < 10)  // block of code to be executed if condition1 is true
+		{
+		  System.out.println("Good morning");
+		} 
+		else if (time < 20)  // block of code to be executed if the condition1 is false and condition2 is true
+		{
+		  System.out.println("Good day");
+		} 
+		else  // block of code to be executed if the condition1 is false and condition2 is false
+		{
+		  System.out.println("Good evening");
+		}
+		// Outputs "Good evening."
+	}
+
+}
