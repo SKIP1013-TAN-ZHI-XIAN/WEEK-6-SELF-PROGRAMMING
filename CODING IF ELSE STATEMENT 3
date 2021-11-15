@@ -7,30 +7,30 @@ class IfElseStatement3 {
 		int number1 = 0;
 		int number2 = 120;
 
-	    // checks if number is greater than 0
-	    if (number1 > 0) 
-	    {
-	    	System.out.println("The number is positive.");
-	    }
-	    // checks if number is less than 0
-	    else if (number1 < 0) 
-	    {
-	    	System.out.println("The number is negative");
-	    }
-	    // if both condition is false
-	    else 
-	    {
-	    	System.out.println("The number is 0");
-	    }
+	        // checks if number is greater than 0
+	        if (number1 > 0) 
+	        {
+	    	   System.out.println("The number is positive");
+	        }
+	        // checks if number is less than 0
+	        else if (number1 < 0) 
+	        {
+	    	   System.out.println("The number is negative");
+	        }
+	        // if both condition is false
+	        else 
+	        {
+	    	   System.out.println("The number is 0");
+	        }
 	    
-	    if( number2 < 50 )
-	    {
-	    	System.out.println("Number is less than 50");
-	    }
-	    else 
-	    {
-	    	System.out.println("Number is greater than or equal 50");
-	    }
+	        if ( number2 < 50 )
+	        {
+	    	   System.out.println("Number is less than 50");
+	        }
+	        else 
+	        {
+	    	   System.out.println("Number is greater than or equal 50");
+	        }
 	}
 
 }
