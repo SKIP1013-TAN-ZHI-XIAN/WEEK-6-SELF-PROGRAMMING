@@ -20,7 +20,7 @@ class IfElseStatement13 {
 		{
 			System.out.print("Adult");
 		}
-		else if (age <= 60)
+		else if ((age >= 60) && (age <= 120))
 		{
 			System.out.print("Senior");
 		}
