@@ -2,7 +2,7 @@ class IfElseStatement10 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// Create an object of Scanner class.
+		// Create an object of Scanner class
 		Scanner scanMe = new Scanner(System.in);
 		   
 		System.out.println("Enter the number to check Buzz number : ");
