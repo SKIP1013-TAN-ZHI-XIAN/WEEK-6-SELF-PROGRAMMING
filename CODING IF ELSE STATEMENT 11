@@ -8,15 +8,15 @@ class IfElseStatement11 {
 		int y = 30;
 		int z = 10;
 		
-		if(x == 20)
+		if (x == 20)
 		{
 		// First inner if statments inside outer if statement.
-		if(y < 50) 
+		if (y < 50) 
 		{
 			System.out.println("ABC");	 
 		}
 		// Second inner if-else statement inside outer if statement.
-		if(z > 30)
+		if (z > 30)
 			System.out.println("DEF");
 		else
 			System.out.println("PQR");	 
