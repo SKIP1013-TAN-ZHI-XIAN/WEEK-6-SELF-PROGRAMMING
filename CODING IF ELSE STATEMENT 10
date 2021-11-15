@@ -5,7 +5,7 @@ class IfElseStatement10 {
 		// Create an object of Scanner class
 		Scanner scanMe = new Scanner(System.in);
 		   
-		System.out.println("Enter the number to check Buzz number : ");
+		System.out.print("Enter the number to check Buzz number : ");
 		int number = scanMe.nextInt();
 		 
 		if((number % 10 == 0) || (number % 7 == 0))
