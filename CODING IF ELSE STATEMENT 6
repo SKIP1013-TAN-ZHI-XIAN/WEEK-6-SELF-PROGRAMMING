@@ -7,15 +7,15 @@ class IfElseStatement6 {
 		int number = -13;    
 		if (number > 0)
 		{  
-			  System.out.println("POSITIVE");  
+			System.out.println("POSITIVE");  
 		}
 		else if (number < 0)
 		{  
-		    System.out.println("NEGATIVE");  
+			System.out.println("NEGATIVE");  
 		}
 		else
 		{  
-		    System.out.println("ZERO");  
+			System.out.println("ZERO");  
 		}  
 	}
 
