@@ -1,0 +1,21 @@
+class IfElseStatement10 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Create an object of Scanner class.
+		Scanner scanMe = new Scanner(System.in);
+		   
+		System.out.println("Enter the number to check Buzz number : ");
+		int number = scanMe.nextInt();
+		 
+		if((number % 10 == 0) || (number % 7 == 0))
+		{
+			System.out.println(number + " is a Buzz number");	
+		}
+		else 
+		{
+			System.out.println(number + " is not a Buzz number");	
+		}
+	}
+
+}
