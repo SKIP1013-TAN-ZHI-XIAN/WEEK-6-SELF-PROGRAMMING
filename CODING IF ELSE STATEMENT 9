@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+class IfElseStatement9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Create an object of Scanner class.
+		Scanner scanMe = new Scanner(System.in);
+		   
+		System.out.println("Enter the number that you want to divide :");
+		int number1 = scanMe.nextInt();
+		System.out.println("Enter the divisor :");
+		int number2 = scanMe.nextInt();
+		 
+		if(number1 % number2 == 0)
+		{
+			System.out.println(number1 + " is divisible by " + number2);	
+		}
+		else 
+		{
+			System.out.println(number1 + " is not divisible by " + number2);	
+		}
+	}
+
+}
