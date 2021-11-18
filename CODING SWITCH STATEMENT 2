@@ -8,7 +8,7 @@ class SwitchStatement2 {
 		
 		String size;
 	    
-	        // switch statement to check size
+	        // Switch statement to check size
 	        switch (number) 
 	        {
 	          case 29:
